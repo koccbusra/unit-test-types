@@ -1,7 +1,6 @@
-package tile;
+package floor;
 
-public class Tile implements ITile {
-
+public class FloorFake implements IFloor {
     private int width;
     private int length;
 

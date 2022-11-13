@@ -1,6 +1,6 @@
 package tile;
 
-public class Tile implements ITile {
+public class TileFake implements ITile {
 
     private int width;
     private int length;
