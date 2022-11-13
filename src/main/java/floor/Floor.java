@@ -1,13 +1,9 @@
 package floor;
 
-public class Floor {
+public class Floor implements IFloor {
 
     private int width;
     private int length;
-
-    public int getArea() {
-        return width * length;
-    }
 
     public void setWidth(int width) {
         this.width = width;
@@ -15,5 +11,10 @@ public class Floor {
 
     public void setLength(int length) {
         this.length = length;
+    }
+
+    @Override
+    public int getArea() {
+        return width * length;
     }
 }

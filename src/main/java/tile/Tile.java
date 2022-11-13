@@ -1,6 +1,6 @@
 package tile;
 
-public class Tile {
+public class Tile implements ITile {
 
     private int width;
     private int length;
@@ -13,6 +13,7 @@ public class Tile {
         this.length = length;
     }
 
+    @Override
     public int getArea() {
         return width * length;
     }

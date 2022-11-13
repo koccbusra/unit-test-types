@@ -1,18 +1,18 @@
 package calculator;
 
-import floor.Floor;
-import tile.Tile;
+import floor.IFloor;
+import tile.ITile;
 
 public class Calculator {
 
-    private Floor floor;
-    private Tile tile;
+    private IFloor floor;
+    private ITile tile;
 
-    public void setTile(Tile tile) {
+    public void setTile(ITile tile) {
         this.tile = tile;
     }
 
-    public void setFloor(Floor floor) {
+    public void setFloor(IFloor floor) {
         this.floor = floor;
     }
 
